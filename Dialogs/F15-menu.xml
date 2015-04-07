@@ -123,6 +123,16 @@
            <dialog-name>track_target</dialog-name>
         </binding>
       </item> 
+	  
+	  <item n="15">
+						<label>Select MP back seater</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+								dual_control_tools.copilot_dialog.show(aircraft_dual_control.copilot_type);
+							</script>
+						</binding>
+					</item>
     </menu>
   
          

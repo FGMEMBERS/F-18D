@@ -6,7 +6,7 @@
 
   <description>F/A-18D_Hornet (yasim )</description>
   <author>Mathias Froehlich, StuartC</author>
-  <status>Alpha 0.8.1</status>
+  <status>Alpha 0.8.5</status>
  
   <flight-model>yasim</flight-model>
   <aero>F-18-yasim</aero>  <!-- For FG Versions earlier than 3.2, remove this line -->
@@ -198,7 +198,7 @@
       <int n="1" alias="/controls/lighting/beacon-switch" />
       
       <!-- int[2] reserved for radar -->
-      
+      <int n="2" type="int">1</int>    <!-- force radar standby transmission over MP -->
       <!-- Landing lights on -->
       <int n="3" alias="/controls/lighting/landing-lights-switch" />
 	  
@@ -215,8 +215,8 @@
 	 <float n="16" alias="/engines/engine[0]/thrust-lbs" /> <!-- Thrust for Multiplayer Sound -->
 	 <float n="17" alias="/engines/engine[1]/thrust-lbs" /> <!-- Thrust for Multiplayer Sound -->
 	
-        <string n="0" type="string"></string> <!-- RESERVED FOR DUAL CONTROL (Analog Switch - TDM)-->
-        <!-- <string n="1" type"string"/> RESERVED FOR MODE WHEELS/AMPHIBIOUS -->
+      <string n="0" type="string"></string>    <!-- bs_TDM1_mpp -->
+				<string n="1" type="string"></string>    <!-- pilot's instruments -->
       </generic>
     </multiplay>				
 
@@ -981,6 +981,8 @@
       <file>Aircraft/F-18D/Nasal/missile.nas</file>
       <file>Aircraft/F-18D/Nasal/Loading_Missiles.nas</file>
     </missile>
+	
+	
     	
 </nasal>
 
