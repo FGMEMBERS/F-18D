@@ -333,18 +333,13 @@ compression="0.8"
 							y="0.0"
 							z="-1.0"
 							length="3.5052"
-							down-angle="90"
-							up-angle="0"
-							holdback-x="-16.3"
-							holdback-y="0.0"
-							holdback-z="0.1175"
-							holdback-length="2.0">
+							down-angle="90">
+							
 		<control-input axis="/controls/gear/launchbar"
 									 control="LEXTEND"/>
 		<control-speed control="LEXTEND"
 									 transition-time="1"/>
-		<control-input axis="/controls/gear/launchbar/acceleration-norm"
-									 control="LACCEL"/>
+		
 	</launchbar>
 
 
