@@ -6,7 +6,7 @@
 
   <description>F/A-18D_Hornet (yasim )</description>
   <author>Mathias Froehlich, StuartC</author>
-  <status>Alpha 0.8.6</status>
+  <status>Alpha 0.9</status>
  
   <flight-model>yasim</flight-model>
   <aero>F-18-yasim</aero>  <!-- For FG Versions earlier than 3.2, remove this line -->

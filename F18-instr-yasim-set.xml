@@ -15,7 +15,7 @@
 
   <description>FA-18D Back Seat(YASIM)</description>
   <author>Mathias Froehlich, Algernon</author>
-  <status>vAlpha 0.8.5</status>
+  <status>vAlpha 0.9</status>
   <aircraft-version>$Id$</aircraft-version>
   
   <flight-model>null</flight-model>

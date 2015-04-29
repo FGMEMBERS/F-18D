@@ -12,6 +12,11 @@ Release date: 10/04/2015
 
 *Release Notes:*
 
+V0.9
+--
+
+FDM updates  ( for FG 3.2+ ) - No more skidding around while parked. The Skidding has been greatly reduced. Other tweaks for flight performance.
+
 V0.8.6
 --
 
